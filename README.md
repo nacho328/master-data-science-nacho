@@ -1,5 +1,3 @@
 # master-data-science-nacho
-
-esto esta modificado
-
-Es la segunda vez que lo modifico
+Este es un repositorio para el los ficheros ulilizados en el master Data Science.
+Nacho Fernandez
