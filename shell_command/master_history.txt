@@ -1,0 +1,509 @@
+     1	exit
+     2	dnf search liquidprompt
+     3	ls
+     4	df -h
+     5	sudo systemctl stop network.target
+     6	sudo systemctl stop postgresql.service
+     7	mount
+     8	sudo mount -o ro,remount /dev/mapper/fedora-root
+     9	ps aux | more
+    10	sudo systemctl stop NetworkManager.service 
+    11	sudo mount -o ro,remount /dev/mapper/fedora-root
+    12	sudo systemctl stop system-postgresql.slice
+    13	sudo mount -o ro,remount /dev/mapper/fedora-root
+    14	ps aux | more
+    15	sudo systemctl stop avahi-daemon.service
+    16	sudo systemctl stop firewalld.service
+    17	sudo dnf install zerofree
+    18	sudo mount -o ro,remount /dev/mapper/fedora-root
+    19	sudo systemctl stop rtkit-daemon.service
+    20	sudo mount -o ro,remount /dev/mapper/fedora-root
+    21	sudo killall dhclient
+    22	sudo mount -o ro,remount /dev/mapper/fedora-root
+    23	{lsof +L1; lsof | sed -n '/SYSV/d; /DEL\|(path /p;)}
+    24	{lsof +L1; lsof | sed -n '/SYSV/d; /DEL\|(path /p;'}
+    25	sudo systemctl stop kdm.service
+    26	sudo mount -o ro,remount /dev/mapper/fedora-root
+    27	sudo systemctl stop systemd-user-sessions.service
+    28	sudo mount -o ro,remount /dev/mapper/fedora-root
+    29	ps aux 
+    30	kill 2974
+    31	sudo kill 2974
+    32	sudo kill 2968
+    33	sudo mount -o ro,remount /dev/mapper/fedora-root
+    34	sudo kill 4084
+    35	ps
+    36	ps aux
+    37	sudo kill 908
+    38	sudo kill 907
+    39	sudo systemctl stop polkit.service
+    40	sudo mount -o ro,remount /dev/mapper/fedora-root
+    41	ps aux 
+    42	sudo kill 745
+    43	sudo systemctl stop dbus.service
+    44	ps aux
+    45	sudo systemctl stop alsa-state.service
+    46	sudo kill 704
+    47	sudo mount -o ro,remount /dev/mapper/fedora-root
+    48	zerofree /dev/mapper/fedora-root
+    49	poweroff
+    50	sudo dnf install dolphin util-linux-user
+    51	y
+    52	ls
+    53	cd
+    54	 cd data
+    55	cd Data
+    56	ls
+    57	cd ..
+    58		ls
+    59	cd Repositories
+    60	ls
+    61	pwd
+    62	git
+    63	git clone https://github.com/nacho328/master-data-science-nacho.git
+    64	ls
+    65	cd master-data-science-nacho/ls
+    66	cd master-data-science-nacho
+    67	kwrite readme.md
+    68	cat readme.md
+    69	git status
+    70	ls
+    71	rm readme.md
+    72	ls
+    73	cat README.md
+    74	kwrite README.md
+    75	git status
+    76	git add README.md
+    77	git commit
+    78	git pus
+    79	git push
+    80	cd
+    81	kwrite.gitconfig
+    82	cdh
+    83	cd master-data-science-nacho
+    84	pwd
+    85	git log
+    86	pwd
+    87	git log
+    88	pwd
+    89	cd Repositories/master-data-science-nacho
+    90	whoami
+    91	echo "Welcome"
+    92	pwd
+    93	echo \ $PWD
+    94	echo \$PWD
+    95	cat /etc/os-release
+    96	cd..
+    97	cd
+    98	cd .
+    99	cd.
+   100	cd .
+   101	cd .ssh
+   102	cd
+   103	cd .ssh
+   104	ls
+   105	ls -a
+   106	cd ..
+   107	ls
+   108	ls -a
+   109	ls -s
+   110	ls -s -1
+   111	ls -10
+   112	history -10
+   113	cd /opentraveldata
+   114	cd ./opentraveldata
+   115	cd opentraveldata
+   116	cd ..
+   117	cd opentraveldata
+   118	cd
+   119	cd /opentraveldata
+   120	ls .history
+   121	cd -
+   122	ls
+   123	ls -a
+   124	pwd
+   125	cd..
+   126	cd ..
+   127	ls
+   128	cd
+   129	cd ./Repositorie
+   130	cd /Repositories
+   131	cd /opentraveldata
+   132	cd ./opentraveldata
+   133	ls -lX
+   134	cd /Data
+   135	cd Data
+   136	ls
+   137	cd opentraveldata/ls -l
+   138	cd opentraveldata
+   139	ls -l
+   140	cd
+   141	mkdir
+   142	mkdir my_dir
+   143	ll my_dir
+   144	mkdir -p my_dir/nacho
+   145	pwd
+   146	ls
+   147	touch my_dir/first_file.txt
+   148	ll my_dir
+   149	cd my_dir
+   150	cp first_file.txt second_file.txt
+   151	ll
+   152	cd -r nacho nacho2
+   153	cp -r nacho nacho2
+   154	ll
+   155	chmod 777 first-file.txt
+   156	chmod 777 first_file.txt
+   157	ll
+   158	mv nacho2 nachete2
+   159	ll
+   160	cp first_file.txt file.txt
+   161	ll
+   162	mv file.txt newfile.ooo
+   163	ll
+   164	rm -r nachete2
+   165	ll
+   166	cd
+   167	mkdir first_dir
+   168	ll
+   169	touch first_dir/text_file.txt
+   170	ls
+   171	cd first_dir
+   172	ls
+   173	chmod g+x,o+w
+   174	chmod g+x
+   175	chmod g +x
+   176	chmod g+x,o+w
+   177	chmod g+x,o+w text_file.txt
+   178	ll
+   179	mkdir first_dir
+   180	mkdir sub1
+   181	mkdir sub2
+   182	mkdir text_file
+   183	ll
+   184	rm -r first_dir
+   185	ll
+   186	cp text_file.txt /sub1
+   187	cp text_file.txt /sub1/text_file.txt
+   188	cp text_file.txt ./sub1/text_file.txt
+   189	ls
+   190	cd sub1
+   191	ll
+   192	mv text_file.txt ./sub2/text_file2.txt
+   193	mv text_file.txt /sub2/text_file2.txt
+   194	ll
+   195	mv text_file.txt ../sub2/text_file2.txt
+   196	cd sub2
+   197	cd.
+   198	cd..
+   199	pwd
+   200	cd ..
+   201	cd -
+   202	cd ../sub2
+   203	ll
+   204	cp ..
+   205	cd ..
+   206	ls
+   207	cp -rp sub1 sub3
+   208	ll
+   209	cd sub3
+   210	ll
+   211	ls
+   212	ls .a
+   213	ls -a
+   214	cd..
+   215	cd ..
+   216	ll
+   217	cp -r sub1 sub3
+   218	ll
+   219	cd sub3
+   220	ll
+   221	cd sub1
+   222	ll
+   223	cd..
+   224	cd ..
+   225	cd sub1
+   226	ll
+   227	ls
+   228	ll
+   229	touch ./first_dir/text_file.txt
+   230	cd..
+   231	cd ..
+   232	touch ./first_dir/text_file.txt
+   233	touch first_dir/text_file.txt
+   234	touch text_file.txt
+   235	cp text_file.tct sub1
+   236	cp text_file.txt sub1
+   237	mv text_file.txt sub2/text_file.txt.2
+   238	cd
+   239	man cat
+   240	less Data/shell/Finn.txt
+   241	less -n  Data/shell/Finn.txt
+   242	less -N  Data/shell/Finn.txt
+   243	less -n Data/shell/Finn.txt
+   244	ls /?
+   245	pwd
+   246	cd Data/shell
+   247	less Finn.txt
+   248	cd ..
+   249	cd opentraveldata
+   250	ll
+   251	less optd_aircraft.csv
+   252	help tree
+   253	cd..
+   254	man tree
+   255	tres
+   256	tree
+   257	tree -L2
+   258	man Tree
+   259	man Tree -L 2
+   260	Tree -L 2
+   261	tree -L 2
+   262	cd ..
+   263	python
+   264	mv nacho2 nachete2
+   265	echo "Hello" > hello_word.txt
+   266	ll
+   267	cat hello-word.txt
+   268	cat hello_word.txt
+   269	cd
+   270	cd Data/shell/ll
+   271	ls
+   272	echo "Esto es una prueba" > Text_example.txt
+   273	ls
+   274	cp - n Text_example.txt Text_example2.txt
+   275	man cp
+   276	man cat
+   277	cat -n Text_example.txt > Text_example2.txt
+   278	ls
+   279	cat Text_example2.txt
+   280	cat Text_example.txt >Text_example3.txt
+   281	cat Text_example3.txt
+   282	cat Text_example.txt >> Text_example3.txt
+   283	cat Text_example3.txt
+   284	cat Text_example.txt Text_example.txt > Text_example3.txt
+   285	cat Text_example3.txt
+   286	cat /etc/os-release
+   287	cd Data/shell
+   288	wc Text_example.txt
+   289	cat Text_example.txt | wc
+   290	Head Fin.txt
+   291	head Fin.txt
+   292	head Finn.txt
+   293	cat -n Finn.txt | head
+   294	cat -n Finn.txt | head - n 5
+   295	cat -n Finn.txt | head -n 5
+   296	cat -n Finn.txt | head 5
+   297	cat -n Finn.txt | head -5
+   298	cat -n Finn.txt | tail -5
+   299	cat Text_example.txt
+   300	cat -n Text_example.txt | head -3
+   301	cat -n Text_example.txt | head -n 2  tail -n 3  
+   302	cat -n Text_example.txt | head -n 2 | tail -n 3  
+   303	cat -n Finn.txt | head -n 2 | tail -n 3  
+   304	cat Text_example.txt
+   305	cd Data/opentraveldata
+   306	cat optd_aircraft.csv | wc
+   307	ls
+   308	cd ..
+   309	ls
+   310	cd ..
+   311	ls
+   312	cat Text_example.txt
+   313	wc -
+   314	find . -name "text_file*"
+   315	find . -iname "text_file*"
+   316	find -type d  -iname "text_file*"
+   317	find . -type d  -iname "text_file*"
+   318	find . -type d  -name "text_file*"
+   319	find  -type f  -name "text_file*"
+   320	find  -maxdepth 3 -type f  -name "text_file*"
+   321	find  -maxdepth 5 -type f  -name "text_file*"
+   322	find -maxdepth 1 -empty
+   323	find Data -size +10M
+   324	find Data . -mmin -60
+   325	find Data . -mmin -60 -exec ls -l {} \;
+   326	find . -mmin -60
+   327	find  -mmin -60
+   328	find -type f -mmin -60
+   329	find -type f -mmin -200
+   330	find -type f empty
+   331	find -type f -empty
+   332	find -type f -empty erm 777 
+   333	find -type f -empty | -perm 777 
+   334	find -type f -empty ! -perm 777 
+   335	cat Text_example.txt Text_example.txt > Text_example3.txt
+   336	find -type f -empty ! -perm 777
+   337	find -type f -empty ! -perm 777 -ok cmd 776
+   338	find -type f -empty ! -perm 777 -ok cmd 776 {
+   339	find -type f -empty ! -perm 777 -ok chmod 776 {} \;
+   340	find ~ -mindepth 2 -type f -mmin -60
+   341	find ~ -mindepth 2 -type f -mmin -260
+   342	history
+   343	echo "Hello"\\
+   344	"World" |\
+   345	wc
+   346	echo "$(date)"
+   347	echo "${HOME} IS MY"
+   348	cat .history > firstlinuxcommands.2017-11-25
+   349	cat firstlinuxcommands.2017-11-25
+   350	ls -l
+   351	cd bin
+   352	cd..
+   353	bin
+   354	ls
+   355	cd /bin
+   356	ls
+   357	cd
+   358	pwd
+   359	cd /bin
+   360	pwd
+   361	cd
+   362	home
+   363	user
+   364	ping google
+   365	ping google.es
+   366	man sudo
+   367	 man cd
+   368	pwd
+   369	ls
+   370	cd Data/who
+   371	who
+   372	whois
+   373	whoami
+   374	head
+   375	whoami
+   376	echo "Welcome"
+   377	pwd
+   378	echo $pwd
+   379	echo \$pwd
+   380	echo $PWD
+   381	pwd
+   382	echo $PWD
+   383	cat /etc/os-release
+   384	pwd
+   385	ls
+   386	cat ./Data/shell/Text_example.txt
+   387	cd Data/airline_tickets
+   388	cd ..
+   389	cat shell/Text_example.txt
+   390	cat ./ shell/Text_example.txt
+   391	cat ./shell/Text_example.txt
+   392	cat ../shell/Text_example.txt
+   393	cat -n shell/Text_example.txt
+   394	ls
+   395	 ls -a
+   396	ls -s -1
+   397	man ls
+   398	history -10
+   399	ll
+   400	type ll
+   401	alias
+   402	alias gs = "git status"
+   403	alias gs="git status"
+   404	alias
+   405	cd..
+   406	ls -s1
+   407	ll
+   408	ls -1
+   409	ls .history
+   410	cat shell/Text_example.txt
+   411	cd .ssh
+   412	ls -a
+   413	ll
+   414	chmod 777 README.md
+   415	ll
+   416	chmod 666 README.md
+   417	ll
+   418	chmod 664 README.md
+   419	ll
+   420	cd nacho
+   421	ll README.md
+   422	cd -
+   423	pwd
+   424	cd ..
+   425	cd opentraveldata
+   426	ls -S
+   427	ls -S1
+   428	ls -Sl
+   429	ls -Slr
+   430	ls -lt
+   431	ls -ltr
+   432	pwd
+   433	mkdir my_dir
+   434	ls -ltr
+   435	cd /nacho
+   436	cd /nachete
+   437	cd ./nachete
+   438	cd ../nachete
+   439	cd ../nacho
+   440	find nacho
+   441	find f nachete
+   442	man find
+   443	find -f nach*
+   444	find nach*
+   445	find -nach*
+   446	find -nacho
+   447	find -nachete
+   448	find -read*
+   449	find -readme
+   450	cd
+   451	find -readme
+   452	find readme
+   453	cd..
+   454	cd Repositories/
+   455	ls
+   456	cd master-data-science-nacho
+   457	ls
+   458	mkdir my_directory
+   459	cd..
+   460	cd -
+   461	cd ..
+   462	CD Data
+   463	pwd
+   464	cd Data
+   465	ls
+   466	mkdir mi_directorio
+   467	ls
+   468	cd mi_directorio/
+   469	touch first_file.tx
+   470	ls
+   471	cp first_file.tx first_file2.tx
+   472	ls
+   473	mkdir dir1
+   474	ls
+   475	mv first_file2.tx /dir1/firs_file2.txt
+   476	mv first_file2.tx ./dir1/firs_file2.txt
+   477	ls
+   478	cd dir1
+   479	ls
+   480	mkdir dirles
+   481	ls
+   482	rm dirles
+   483	rm -r dirles
+   484	ls
+   485	lee firs_file2.txt
+   486	less firs_file2.txt
+   487	pwd
+   488	ll
+   489	cd Repositories
+   490	ls
+   491	cd master-data-science-nacho
+   492	ls
+   493	mkdir Comandos_Shell
+   494	ls
+   495	mkdir shell_command
+   496	ls
+   497	rm Comandos_Shell
+   498	man rm
+   499	rm -r Comandos_Shell
+   500	ls
+   501	cd shell_command
+   502	ls
+   503	cat ~/.bash_history > ./master_history.txt
+   504	cat ~/.history > ./master_history.txt
+   505	ls
+   506	mann less
+   507	less master_history.txt
+   508	man mv
+   509	cat -n  ~/.history > ./master_history.txt
