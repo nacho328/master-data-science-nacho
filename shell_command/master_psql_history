@@ -1,0 +1,125 @@
+\l
+This is one lineEsto es una prueba""
+\d
+\! pwd
+CREATE DATABASE networking;
+\l
+\c networking
+\d
+CREATE table friends (nombre VARCHAR,edad Int,email varchar);
+\d
+CREATE table friends (nombre VARCHAR,edad Int,email varchar);
+\d
+\d friends
+Insert into friends Values (Lionel Messi', 29, messi@barcelona.es');
+INSERT  into friends values ('Lionel Messi', 29,' messi@barcelona.es');
+INSERT  into friends values ('Melania Trump', ,' melania@supersmile.es');
+INSERT  into friends (nombre, email) values ('Melania Trump', ' melania@supersmile.es');
+INSERT  into friends  values(Mario, 24)('Marina', 25)('R
+\c networking
+\d
+\d Facebook
+alter table Facebook ADD PRIMARY key (email);
+\d Facebook
+Alter table ADD column Telefono varchar;
+ALTER table ADD column Telefono varchar;
+ALTER table Friends ADD column Telefono varchar;
+\d friends
+ALTER table Friends ADD column Residencia varchar;
+\d friends
+select * from friends;
+update friends set residencia = 'Madrid';
+select * from friends;
+update friends set residencia = 'Valencia' Where edad<30;
+select * from friends;
+update friends set edad = 100 Where name like 'Me%';
+update friends set edad = 100 Where nombre like 'Me%';
+select * from friends;
+\c networking
+SELECT nombre, edad from friends where edad <50;
+INSERT into friends values  ('Mario',28, NULL);
+INSERT into friends values('Mario', 26, 'pepe@hotmail.com');
+INSERT into friends   ('Donald Trump',71, 'kk');
+INSERT into friends values('Donald Trump',71, 'kk');
+CREATE table Facebok (name VARCHAR,age Int,city of residence  varchar,);
+CREATE table Facebook (name VARCHAR,age Int,city_of_residence  varchar,email varchar);
+INSERT into Facebook values ('Pedro',25,'Madrid','pedro@gmail')('Maria',36,'Barcelona','maria@gmail')('Lola',56,'Cadiz','loal@gmail.com');
+INSERT into Facebook values ('Pedro',25,'Madrid','pedro@gmail');
+INSERT into Facebook values ('Maria',36,'Barcelona','maria@gmail')('Lola',56,'Cadiz','loal@gmail.com');
+INSERT into Facebook values ('Lola',56,'Cadiz','loal@gmail.com');
+INSERT into Facebook values ('Maria',34,'Andorra','maria@gmail.com');
+INSERT into Facebook values ('Nacho',43,'Londres','nacho@gmail.com');
+\d Facebook
+select * from Facebook;
+INSERT into Facebook values ('Luis',25,'Santander','Luis@gmail.com');
+select * from Facebook;
+INSERT into Facebook values ('Alicia',80,'Oviedo','Alicia@gmail.com');
+INSERT into Facebook values ('Paco',12,'Caceres','xx@gmail.com');
+SELECT * from Facebook where age<18 or age>65;
+SELECT * from Facebook where city_of_residence <>'Madrid';
+/l
+\l
+;
+-d
+\d
+\l
+\c
+\l
+\c postgres
+\d
+\c networking
+\d
+! ls
+\! ls
+\l
+\! pwd
+\ cd ..
+CREATE DATABASE networking2;
+;
+\q
+CREATE DATABASE networking2;
+\l
+\c networking2
+\d
+\c networking2
+\q
+\c networking2
+;
+\d
+\c networking
+\d
+\c networking2
+;)email varchaRedad Int,nombre VARCHAR,CREATE tabLe friends (
+;
+\q
+\d
+\l
+create database optd
+\l
+create database optd;
+drop database optd;
+CREATE DATABASE optd;
+\! csvsql -d '^' optd_aircraft.csv -i postgresql > psql_create_optd_aircraft.txt 
+\! csvsql -d '^' optd_airlines.csv -i postgresql > psql_create_optd_airlines.txt 
+\! psql -d optd -f psql_create_optd_aircraft.txt
+\! psql -d optd -f psql_create_optd_airlines.txt
+\cd ~/Data/opentraveldata/
+\! cd ~/Data/opentraveldata/
+\
+\l
+\c optd
+\d
+select * from optd_aircraft
+\! copy optd_aircraft from './optd_aircraft.csv' delimiter '^' csv header;
+\ copy optd_aircraft from './optd_aircraft.csv' delimiter '^' csv header;
+\copy optd_aircraft from './optd_aircraft.csv' delimiter '^' csv header;
+\copy optd_airlines from './optd_airlines.csv' delimiter '^' csv header;
+select manufacturer, model, nb_engines from optd_aircraft where nb_engines is NOT  NULL;
+SELECT manufacturer, model, nb_engines from optd_aircraft where nb_engines is NOT  NULL;
+SELECT manufacturer, model, nb_engines from optd_aircraft where nb_engines is NOT  NULL ORDER BY nb_engines DESC ;
+SELECT manufacturer, model, nb_engines from optd_aircraft where nb_engines is NOT  NULL order by nb_engines DESC limit 1;
+SELECT nb_engines, count(*) from optd_aircraft where nb_engines is NOT NULL group by nb_engines order by count(*) DESC limit 1;
+\l
+\d
+q;
+\q
